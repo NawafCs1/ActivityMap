@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_62d3a3b6364df5c7137e897d29a33ca5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_62d3a3b6364df5c7137e897d29a33ca5" ></div>
+        
+</body>
+<script>    
+    
+            var map_62d3a3b6364df5c7137e897d29a33ca5 = L.map(
+                "map_62d3a3b6364df5c7137e897d29a33ca5",
+                {
+                    center: [24.7313, 46.67],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 50,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e84ad73a60cb11890219afdeca2e65bc = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var marker_82015a1c7660ce1905b4114518d341a8 = L.marker(
+                [24.7313, 46.67],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_021ac34445968cbd3ea138eb9cbe66f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_82015a1c7660ce1905b4114518d341a8.setIcon(icon_021ac34445968cbd3ea138eb9cbe66f8);
+        
+    
+        var popup_e5a5936a2cc35e5159208f42ea82aa01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ff527aa92829085c567e4eebc3204f3 = $(`<div id="html_2ff527aa92829085c567e4eebc3204f3" style="width: 100.0%; height: 100.0%;">Rank5 Rating4.5 Reviews1861  </div>`)[0];
+            popup_e5a5936a2cc35e5159208f42ea82aa01.setContent(html_2ff527aa92829085c567e4eebc3204f3);
+        
+
+        marker_82015a1c7660ce1905b4114518d341a8.bindPopup(popup_e5a5936a2cc35e5159208f42ea82aa01)
+        ;
+
+        
+    
+    
+            var marker_67bca1338afbdc8928ec9c8a26662795 = L.marker(
+                [24.6553, 46.7092],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_8682e37fc3d2f2acec0e08b566fc9b7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_67bca1338afbdc8928ec9c8a26662795.setIcon(icon_8682e37fc3d2f2acec0e08b566fc9b7b);
+        
+    
+        var popup_3943ecdd29800cfc0724e483c2492778 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b76691f70651e1d847b2d3f782f74baf = $(`<div id="html_b76691f70651e1d847b2d3f782f74baf" style="width: 100.0%; height: 100.0%;">Rank3 Rating4.5 Reviews696  </div>`)[0];
+            popup_3943ecdd29800cfc0724e483c2492778.setContent(html_b76691f70651e1d847b2d3f782f74baf);
+        
+
+        marker_67bca1338afbdc8928ec9c8a26662795.bindPopup(popup_3943ecdd29800cfc0724e483c2492778)
+        ;
+
+        
+    
+    
+            var marker_56dedb2a21e3805cb0abd82fb0fbc415 = L.marker(
+                [24.6314, 46.7136],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_e75ed8a6e567526ed7994f847ca477a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_56dedb2a21e3805cb0abd82fb0fbc415.setIcon(icon_e75ed8a6e567526ed7994f847ca477a9);
+        
+    
+        var popup_b42b913d52d2f4984d3b56022ec60ab2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc4b527d6d2f2499b7ffd74fcfc32fea = $(`<div id="html_cc4b527d6d2f2499b7ffd74fcfc32fea" style="width: 100.0%; height: 100.0%;">Rank4 Rating4.5 Reviews619  </div>`)[0];
+            popup_b42b913d52d2f4984d3b56022ec60ab2.setContent(html_cc4b527d6d2f2499b7ffd74fcfc32fea);
+        
+
+        marker_56dedb2a21e3805cb0abd82fb0fbc415.bindPopup(popup_b42b913d52d2f4984d3b56022ec60ab2)
+        ;
+
+        
+    
+    
+            var marker_c9c2e17fc82a27f910968e31ebf302af = L.marker(
+                [24.7682, 46.7149],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_e3bd3d26148ee835b5878375d539f4c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_c9c2e17fc82a27f910968e31ebf302af.setIcon(icon_e3bd3d26148ee835b5878375d539f4c6);
+        
+    
+        var popup_2847f2d3a08ed2a1bc2fcdf98fe8f0c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11494340f742f91025aac5e87c0777d1 = $(`<div id="html_11494340f742f91025aac5e87c0777d1" style="width: 100.0%; height: 100.0%;">Rank2 Rating4.5 Reviews287  </div>`)[0];
+            popup_2847f2d3a08ed2a1bc2fcdf98fe8f0c0.setContent(html_11494340f742f91025aac5e87c0777d1);
+        
+
+        marker_c9c2e17fc82a27f910968e31ebf302af.bindPopup(popup_2847f2d3a08ed2a1bc2fcdf98fe8f0c0)
+        ;
+
+        
+    
+    
+            var marker_bb7f3b4ab864ee4055d310a5a8667427 = L.marker(
+                [24.6772, 46.7788],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_7c4f87320518ca44db40c0a4349cab38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_bb7f3b4ab864ee4055d310a5a8667427.setIcon(icon_7c4f87320518ca44db40c0a4349cab38);
+        
+    
+        var popup_8521a127effb2a28b543c9ac3624be33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcabe5f6ed3db7206c59e9bb50859295 = $(`<div id="html_bcabe5f6ed3db7206c59e9bb50859295" style="width: 100.0%; height: 100.0%;">Rank1 Rating5.0 Reviews318  </div>`)[0];
+            popup_8521a127effb2a28b543c9ac3624be33.setContent(html_bcabe5f6ed3db7206c59e9bb50859295);
+        
+
+        marker_bb7f3b4ab864ee4055d310a5a8667427.bindPopup(popup_8521a127effb2a28b543c9ac3624be33)
+        ;
+
+        
+    
+    
+            var marker_c567d3e4d1a4455bb3f9e4bb9f3c281d = L.marker(
+                [24.7313, 46.67],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_74aa46eb87e3b2476d4285800d0301b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_c567d3e4d1a4455bb3f9e4bb9f3c281d.setIcon(icon_74aa46eb87e3b2476d4285800d0301b0);
+        
+    
+        var popup_8f2871e384535acc1b10d260ab4b8ade = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3ed77beda4b57148c4608bcb48882c1 = $(`<div id="html_b3ed77beda4b57148c4608bcb48882c1" style="width: 100.0%; height: 100.0%;">Rank: 5 Rating: 4.5 Reviews: 1861  </div>`)[0];
+            popup_8f2871e384535acc1b10d260ab4b8ade.setContent(html_b3ed77beda4b57148c4608bcb48882c1);
+        
+
+        marker_c567d3e4d1a4455bb3f9e4bb9f3c281d.bindPopup(popup_8f2871e384535acc1b10d260ab4b8ade)
+        ;
+
+        
+    
+    
+            var marker_94089d00d92e9f5d155053b6e17f9a64 = L.marker(
+                [24.6553, 46.7092],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_190613d40350e2eec53d4fe4f532b413 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_94089d00d92e9f5d155053b6e17f9a64.setIcon(icon_190613d40350e2eec53d4fe4f532b413);
+        
+    
+        var popup_b4336271c8ee40e45e80c69373993594 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b96a130175fe27619136a0fbc0e5183 = $(`<div id="html_6b96a130175fe27619136a0fbc0e5183" style="width: 100.0%; height: 100.0%;">Rank: 3 Rating: 4.5 Reviews: 696  </div>`)[0];
+            popup_b4336271c8ee40e45e80c69373993594.setContent(html_6b96a130175fe27619136a0fbc0e5183);
+        
+
+        marker_94089d00d92e9f5d155053b6e17f9a64.bindPopup(popup_b4336271c8ee40e45e80c69373993594)
+        ;
+
+        
+    
+    
+            var marker_084d37e25045d2d90daf5b807a213469 = L.marker(
+                [24.6314, 46.7136],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_591b9d6ee244505588cb26cd9f04e942 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_084d37e25045d2d90daf5b807a213469.setIcon(icon_591b9d6ee244505588cb26cd9f04e942);
+        
+    
+        var popup_a7b94b0e687a85691402f762e85f9b5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8ef4e4898d71bb411d45ea7ea288a9b = $(`<div id="html_f8ef4e4898d71bb411d45ea7ea288a9b" style="width: 100.0%; height: 100.0%;">Rank: 4 Rating: 4.5 Reviews: 619  </div>`)[0];
+            popup_a7b94b0e687a85691402f762e85f9b5c.setContent(html_f8ef4e4898d71bb411d45ea7ea288a9b);
+        
+
+        marker_084d37e25045d2d90daf5b807a213469.bindPopup(popup_a7b94b0e687a85691402f762e85f9b5c)
+        ;
+
+        
+    
+    
+            var marker_4096d09e4d63bc77baa5140a3bda2e32 = L.marker(
+                [24.7682, 46.7149],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_8e5c795a967066107a7e8034096644b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_4096d09e4d63bc77baa5140a3bda2e32.setIcon(icon_8e5c795a967066107a7e8034096644b1);
+        
+    
+        var popup_25f7402abf09f864e42894a1c51184b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3836d3a17ac6ee3123523f362846a930 = $(`<div id="html_3836d3a17ac6ee3123523f362846a930" style="width: 100.0%; height: 100.0%;">Rank: 2 Rating: 4.5 Reviews: 287  </div>`)[0];
+            popup_25f7402abf09f864e42894a1c51184b0.setContent(html_3836d3a17ac6ee3123523f362846a930);
+        
+
+        marker_4096d09e4d63bc77baa5140a3bda2e32.bindPopup(popup_25f7402abf09f864e42894a1c51184b0)
+        ;
+
+        
+    
+    
+            var marker_fc82742f9fcef73aed25676664a508e3 = L.marker(
+                [24.6772, 46.7788],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_a31601be1f8b67603c1868647e71a4d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_fc82742f9fcef73aed25676664a508e3.setIcon(icon_a31601be1f8b67603c1868647e71a4d2);
+        
+    
+        var popup_8b13dd87462fc96f66fccb527c5fefb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f727d83e425ab2e7d18ad42b566c307 = $(`<div id="html_8f727d83e425ab2e7d18ad42b566c307" style="width: 100.0%; height: 100.0%;">Rank: 1 Rating: 5.0 Reviews: 318  </div>`)[0];
+            popup_8b13dd87462fc96f66fccb527c5fefb9.setContent(html_8f727d83e425ab2e7d18ad42b566c307);
+        
+
+        marker_fc82742f9fcef73aed25676664a508e3.bindPopup(popup_8b13dd87462fc96f66fccb527c5fefb9)
+        ;
+
+        
+    
+    
+            var marker_365c6290dbc03184dd26ebc508e10d32 = L.marker(
+                [24.7313, 46.67],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_82b18381885570395b5732917134c1e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_365c6290dbc03184dd26ebc508e10d32.setIcon(icon_82b18381885570395b5732917134c1e2);
+        
+    
+        var popup_c5ef3f802f9ba9f2d790446e2f3fb092 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_039e10ff77607195cd060c268ab60fe4 = $(`<div id="html_039e10ff77607195cd060c268ab60fe4" style="width: 100.0%; height: 100.0%;">ActivityName:Kingdom Centre Tower Rank: 5 Rating: 4.5 Reviews: 1861  </div>`)[0];
+            popup_c5ef3f802f9ba9f2d790446e2f3fb092.setContent(html_039e10ff77607195cd060c268ab60fe4);
+        
+
+        marker_365c6290dbc03184dd26ebc508e10d32.bindPopup(popup_c5ef3f802f9ba9f2d790446e2f3fb092)
+        ;
+
+        
+    
+    
+            var marker_01085050660125e33f50a48814c3505e = L.marker(
+                [24.6553, 46.7092],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_3042539d38fcf8d5d2ad8105167daf31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_01085050660125e33f50a48814c3505e.setIcon(icon_3042539d38fcf8d5d2ad8105167daf31);
+        
+    
+        var popup_5cb85a0f95e27225b8f9e2c435da1cb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_024822beac3ba691c6c9a26c9af9ec13 = $(`<div id="html_024822beac3ba691c6c9a26c9af9ec13" style="width: 100.0%; height: 100.0%;">ActivityName:National Museum Rank: 3 Rating: 4.5 Reviews: 696  </div>`)[0];
+            popup_5cb85a0f95e27225b8f9e2c435da1cb3.setContent(html_024822beac3ba691c6c9a26c9af9ec13);
+        
+
+        marker_01085050660125e33f50a48814c3505e.bindPopup(popup_5cb85a0f95e27225b8f9e2c435da1cb3)
+        ;
+
+        
+    
+    
+            var marker_e06a810035f4b222cd9e5ed7338cf2e4 = L.marker(
+                [24.6314, 46.7136],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_ae13648c0388574d00722fa125f8342d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_e06a810035f4b222cd9e5ed7338cf2e4.setIcon(icon_ae13648c0388574d00722fa125f8342d);
+        
+    
+        var popup_f81fbd28bc8c28149d702f0b5242c6c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_601bd0f91502d951e204e31ed88561f1 = $(`<div id="html_601bd0f91502d951e204e31ed88561f1" style="width: 100.0%; height: 100.0%;">ActivityName:Al Masmak Fortress Rank: 4 Rating: 4.5 Reviews: 619  </div>`)[0];
+            popup_f81fbd28bc8c28149d702f0b5242c6c8.setContent(html_601bd0f91502d951e204e31ed88561f1);
+        
+
+        marker_e06a810035f4b222cd9e5ed7338cf2e4.bindPopup(popup_f81fbd28bc8c28149d702f0b5242c6c8)
+        ;
+
+        
+    
+    
+            var marker_588118f8d291b43f3f169cce638fba8b = L.marker(
+                [24.7682, 46.7149],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_54543078597c10970471005cb1ab8b6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_588118f8d291b43f3f169cce638fba8b.setIcon(icon_54543078597c10970471005cb1ab8b6c);
+        
+    
+        var popup_f2fba551f61e9b2ce4ae3b69ab79f0be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52fb41fb9a4e2078e15f32d9e00a7aa7 = $(`<div id="html_52fb41fb9a4e2078e15f32d9e00a7aa7" style="width: 100.0%; height: 100.0%;">ActivityName:Al Nakheel Mall Rank: 2 Rating: 4.5 Reviews: 287  </div>`)[0];
+            popup_f2fba551f61e9b2ce4ae3b69ab79f0be.setContent(html_52fb41fb9a4e2078e15f32d9e00a7aa7);
+        
+
+        marker_588118f8d291b43f3f169cce638fba8b.bindPopup(popup_f2fba551f61e9b2ce4ae3b69ab79f0be)
+        ;
+
+        
+    
+    
+            var marker_0c5da2085dc2f379f756dc1f218b3ce9 = L.marker(
+                [24.6772, 46.7788],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_7c1a28ada7e200da7e61740ab7884805 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_0c5da2085dc2f379f756dc1f218b3ce9.setIcon(icon_7c1a28ada7e200da7e61740ab7884805);
+        
+    
+        var popup_5804a20770c2e687b0cd1de87624ae39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe7cc12c28710a5b335190e7169b1a50 = $(`<div id="html_fe7cc12c28710a5b335190e7169b1a50" style="width: 100.0%; height: 100.0%;">ActivityName:Al Rajhi Grand Mosque Rank: 1 Rating: 5.0 Reviews: 318  </div>`)[0];
+            popup_5804a20770c2e687b0cd1de87624ae39.setContent(html_fe7cc12c28710a5b335190e7169b1a50);
+        
+
+        marker_0c5da2085dc2f379f756dc1f218b3ce9.bindPopup(popup_5804a20770c2e687b0cd1de87624ae39)
+        ;
+
+        
+    
+    
+            var marker_9dc1b325c441fbfa664a6c0fda0c275f = L.marker(
+                [24.7313, 46.67],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_97cfb26d656d0534daa5b7e7cbdb907b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_9dc1b325c441fbfa664a6c0fda0c275f.setIcon(icon_97cfb26d656d0534daa5b7e7cbdb907b);
+        
+    
+        var popup_4c11e72a245eb3fa226ae13be12cc1f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_052105b755bc57401bbe92aeb59dd855 = $(`<div id="html_052105b755bc57401bbe92aeb59dd855" style="width: 100.0%; height: 100.0%;">Activity:Kingdom Centre Tower Rank: 5 Rating: 4.5 Reviews: 1861  </div>`)[0];
+            popup_4c11e72a245eb3fa226ae13be12cc1f2.setContent(html_052105b755bc57401bbe92aeb59dd855);
+        
+
+        marker_9dc1b325c441fbfa664a6c0fda0c275f.bindPopup(popup_4c11e72a245eb3fa226ae13be12cc1f2)
+        ;
+
+        
+    
+    
+            var marker_7868d040c4011b73131e736147c0184b = L.marker(
+                [24.6553, 46.7092],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_732167663de62b33e157746e8a8419fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_7868d040c4011b73131e736147c0184b.setIcon(icon_732167663de62b33e157746e8a8419fb);
+        
+    
+        var popup_7294576d4b6dab9698917cc7a000fcf5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c92aec159e451f61ca4e1816ca7a3b09 = $(`<div id="html_c92aec159e451f61ca4e1816ca7a3b09" style="width: 100.0%; height: 100.0%;">Activity:National Museum Rank: 3 Rating: 4.5 Reviews: 696  </div>`)[0];
+            popup_7294576d4b6dab9698917cc7a000fcf5.setContent(html_c92aec159e451f61ca4e1816ca7a3b09);
+        
+
+        marker_7868d040c4011b73131e736147c0184b.bindPopup(popup_7294576d4b6dab9698917cc7a000fcf5)
+        ;
+
+        
+    
+    
+            var marker_b0db053cbf2d26d9510bfd18c5751766 = L.marker(
+                [24.6314, 46.7136],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_f1cedf7945fbe5b39f71990f6b022452 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_b0db053cbf2d26d9510bfd18c5751766.setIcon(icon_f1cedf7945fbe5b39f71990f6b022452);
+        
+    
+        var popup_00a9e699bbf4a0e9889aba56b48692a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c89d251caab26160340fe029ece976d = $(`<div id="html_6c89d251caab26160340fe029ece976d" style="width: 100.0%; height: 100.0%;">Activity:Al Masmak Fortress Rank: 4 Rating: 4.5 Reviews: 619  </div>`)[0];
+            popup_00a9e699bbf4a0e9889aba56b48692a0.setContent(html_6c89d251caab26160340fe029ece976d);
+        
+
+        marker_b0db053cbf2d26d9510bfd18c5751766.bindPopup(popup_00a9e699bbf4a0e9889aba56b48692a0)
+        ;
+
+        
+    
+    
+            var marker_415b6c3cc08bfe02f2aef5c4c92a9940 = L.marker(
+                [24.7682, 46.7149],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_574ef8188231938ad64671805242da02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_415b6c3cc08bfe02f2aef5c4c92a9940.setIcon(icon_574ef8188231938ad64671805242da02);
+        
+    
+        var popup_bafae988b09cbe23e6d50e2bd6f50bc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0521cd6f2f18f1c0e437ee7c66c08b12 = $(`<div id="html_0521cd6f2f18f1c0e437ee7c66c08b12" style="width: 100.0%; height: 100.0%;">Activity:Al Nakheel Mall Rank: 2 Rating: 4.5 Reviews: 287  </div>`)[0];
+            popup_bafae988b09cbe23e6d50e2bd6f50bc7.setContent(html_0521cd6f2f18f1c0e437ee7c66c08b12);
+        
+
+        marker_415b6c3cc08bfe02f2aef5c4c92a9940.bindPopup(popup_bafae988b09cbe23e6d50e2bd6f50bc7)
+        ;
+
+        
+    
+    
+            var marker_63f9f1d663336b34e67adc6bdec9d5ae = L.marker(
+                [24.6772, 46.7788],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_756fc2b82f7ef87a0b9888f0596d75cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_63f9f1d663336b34e67adc6bdec9d5ae.setIcon(icon_756fc2b82f7ef87a0b9888f0596d75cb);
+        
+    
+        var popup_07a92fe11fad2d65fc74a00b031ce4a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5213919ed784a5e7d9ad6ee1c154699 = $(`<div id="html_a5213919ed784a5e7d9ad6ee1c154699" style="width: 100.0%; height: 100.0%;">Activity:Al Rajhi Grand Mosque Rank: 1 Rating: 5.0 Reviews: 318  </div>`)[0];
+            popup_07a92fe11fad2d65fc74a00b031ce4a5.setContent(html_a5213919ed784a5e7d9ad6ee1c154699);
+        
+
+        marker_63f9f1d663336b34e67adc6bdec9d5ae.bindPopup(popup_07a92fe11fad2d65fc74a00b031ce4a5)
+        ;
+
+        
+    
+    
+            var marker_00035c31cd17d0736827067a42495c00 = L.marker(
+                [24.7313, 46.67],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_84a7c9d1a1afe0b6c6f1b5e977b2204a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "users", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_00035c31cd17d0736827067a42495c00.setIcon(icon_84a7c9d1a1afe0b6c6f1b5e977b2204a);
+        
+    
+        var popup_d9cae0bc4f91d77961bec836d4598238 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31962a901e6b3384a40631b99e48e8cc = $(`<div id="html_31962a901e6b3384a40631b99e48e8cc" style="width: 100.0%; height: 100.0%;">Activity:Kingdom Centre Tower Rank: 5 Rating: 4.5 Reviews: 1861  </div>`)[0];
+            popup_d9cae0bc4f91d77961bec836d4598238.setContent(html_31962a901e6b3384a40631b99e48e8cc);
+        
+
+        marker_00035c31cd17d0736827067a42495c00.bindPopup(popup_d9cae0bc4f91d77961bec836d4598238)
+        ;
+
+        
+    
+    
+            var marker_0789e24fb980f72c4000ef272a68753c = L.marker(
+                [24.6553, 46.7092],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_27461e3f8c075f9964f2bf60e35d4e6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "users", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_0789e24fb980f72c4000ef272a68753c.setIcon(icon_27461e3f8c075f9964f2bf60e35d4e6c);
+        
+    
+        var popup_8d2d96b76961795cd5c9ac32a973a602 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c89638c5d39d9a11de2a2059af761d68 = $(`<div id="html_c89638c5d39d9a11de2a2059af761d68" style="width: 100.0%; height: 100.0%;">Activity:National Museum Rank: 3 Rating: 4.5 Reviews: 696  </div>`)[0];
+            popup_8d2d96b76961795cd5c9ac32a973a602.setContent(html_c89638c5d39d9a11de2a2059af761d68);
+        
+
+        marker_0789e24fb980f72c4000ef272a68753c.bindPopup(popup_8d2d96b76961795cd5c9ac32a973a602)
+        ;
+
+        
+    
+    
+            var marker_a974c196eb7c97b927c0a5f271652101 = L.marker(
+                [24.6314, 46.7136],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_d9ddfa1b376659496698adec9e0f29fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "users", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_a974c196eb7c97b927c0a5f271652101.setIcon(icon_d9ddfa1b376659496698adec9e0f29fd);
+        
+    
+        var popup_37c17f0a4458f12d8ec9a8953cf49b3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8be5eb2e4d56195dfe463111458c882 = $(`<div id="html_e8be5eb2e4d56195dfe463111458c882" style="width: 100.0%; height: 100.0%;">Activity:Al Masmak Fortress Rank: 4 Rating: 4.5 Reviews: 619  </div>`)[0];
+            popup_37c17f0a4458f12d8ec9a8953cf49b3f.setContent(html_e8be5eb2e4d56195dfe463111458c882);
+        
+
+        marker_a974c196eb7c97b927c0a5f271652101.bindPopup(popup_37c17f0a4458f12d8ec9a8953cf49b3f)
+        ;
+
+        
+    
+    
+            var marker_c95d3463e08cb08b6cb0705c291d2dc2 = L.marker(
+                [24.7682, 46.7149],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_3827d1fbf166c59438ec4b2abe667ef1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "users", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_c95d3463e08cb08b6cb0705c291d2dc2.setIcon(icon_3827d1fbf166c59438ec4b2abe667ef1);
+        
+    
+        var popup_5ad828cc5bd4a89361f7b3f9ff0df572 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14b51656867ce4613d75b7062e15915f = $(`<div id="html_14b51656867ce4613d75b7062e15915f" style="width: 100.0%; height: 100.0%;">Activity:Al Nakheel Mall Rank: 2 Rating: 4.5 Reviews: 287  </div>`)[0];
+            popup_5ad828cc5bd4a89361f7b3f9ff0df572.setContent(html_14b51656867ce4613d75b7062e15915f);
+        
+
+        marker_c95d3463e08cb08b6cb0705c291d2dc2.bindPopup(popup_5ad828cc5bd4a89361f7b3f9ff0df572)
+        ;
+
+        
+    
+    
+            var marker_241c33116b193f590c3b8f437d75107b = L.marker(
+                [24.6772, 46.7788],
+                {}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var icon_553730bbf43e3ca6dad036747f38f8cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "users", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_241c33116b193f590c3b8f437d75107b.setIcon(icon_553730bbf43e3ca6dad036747f38f8cb);
+        
+    
+        var popup_2071514148cdb5129a5b1ef49f3e942b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6342de53fa55ef56a7be8ae816daf6e3 = $(`<div id="html_6342de53fa55ef56a7be8ae816daf6e3" style="width: 100.0%; height: 100.0%;">Activity:Al Rajhi Grand Mosque Rank: 1 Rating: 5.0 Reviews: 318  </div>`)[0];
+            popup_2071514148cdb5129a5b1ef49f3e942b.setContent(html_6342de53fa55ef56a7be8ae816daf6e3);
+        
+
+        marker_241c33116b193f590c3b8f437d75107b.bindPopup(popup_2071514148cdb5129a5b1ef49f3e942b)
+        ;
+
+        
+    
+    
+            var tile_layer_e103ce0ba76b174efab572ff9e805d5b = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var tile_layer_6586e0c3d18382d0943c2b0638cb00b3 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var tile_layer_a1f0df54cf2c6c68a39a5cd3801453c7 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var tile_layer_66e14f8bdfdad0a0dd6c3f8e609c5d05 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var tile_layer_d863c4cd7c8281c68581b9686d66f901 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var layer_control_c0bdb586d107020e8b49d75fadd09fcc = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_e84ad73a60cb11890219afdeca2e65bc,
+                    "stamenterrain" : tile_layer_8ae31abcc5700700b75285fdad748c96,
+                    "stamentoner" : tile_layer_7ba937afd1991407517a0edc918f7da7,
+                    "stamenwatercolor" : tile_layer_7900fa88efe0e24bc240f7b5050ca485,
+                    "cartodbpositron" : tile_layer_7e579f6a6d1eacc566256686fa596d58,
+                    "cartodbdark_matter" : tile_layer_636e411b2ee1ff6d9c27fdcaf155747a,
+                },
+                overlays :  {
+                },
+            };
+            L.control.layers(
+                layer_control_c0bdb586d107020e8b49d75fadd09fcc.base_layers,
+                layer_control_c0bdb586d107020e8b49d75fadd09fcc.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+            tile_layer_8ae31abcc5700700b75285fdad748c96.remove();
+            tile_layer_7ba937afd1991407517a0edc918f7da7.remove();
+            tile_layer_7900fa88efe0e24bc240f7b5050ca485.remove();
+            tile_layer_7e579f6a6d1eacc566256686fa596d58.remove();
+            tile_layer_636e411b2ee1ff6d9c27fdcaf155747a.remove();
+            tile_layer_e84ad73a60cb11890219afdeca2e65bc.remove();
+        
+    
+            var tile_layer_8ae31abcc5700700b75285fdad748c96 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var tile_layer_7ba937afd1991407517a0edc918f7da7 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var tile_layer_7900fa88efe0e24bc240f7b5050ca485 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var tile_layer_7e579f6a6d1eacc566256686fa596d58 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var tile_layer_636e411b2ee1ff6d9c27fdcaf155747a = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+        
+    
+            var layer_control_fbec8081ee893a8d80878f762c26ce8d = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_e84ad73a60cb11890219afdeca2e65bc,
+                    "stamenterrain" : tile_layer_8ae31abcc5700700b75285fdad748c96,
+                    "stamentoner" : tile_layer_7ba937afd1991407517a0edc918f7da7,
+                    "stamenwatercolor" : tile_layer_7900fa88efe0e24bc240f7b5050ca485,
+                    "cartodbpositron" : tile_layer_7e579f6a6d1eacc566256686fa596d58,
+                    "cartodbdark_matter" : tile_layer_636e411b2ee1ff6d9c27fdcaf155747a,
+                },
+                overlays :  {
+                },
+            };
+            L.control.layers(
+                layer_control_fbec8081ee893a8d80878f762c26ce8d.base_layers,
+                layer_control_fbec8081ee893a8d80878f762c26ce8d.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_62d3a3b6364df5c7137e897d29a33ca5);
+            tile_layer_8ae31abcc5700700b75285fdad748c96.remove();
+            tile_layer_7ba937afd1991407517a0edc918f7da7.remove();
+            tile_layer_7900fa88efe0e24bc240f7b5050ca485.remove();
+            tile_layer_7e579f6a6d1eacc566256686fa596d58.remove();
+            tile_layer_636e411b2ee1ff6d9c27fdcaf155747a.remove();
+            tile_layer_e84ad73a60cb11890219afdeca2e65bc.remove();
+        
+</script>
